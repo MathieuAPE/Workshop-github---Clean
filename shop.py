@@ -14,3 +14,7 @@ def shipping_cost(weight):
     if weight < 1:
         return 3.5
     return 3.5 + (weight - 1) * 1.2
+
+
+def format_price(value):
+    return f"{value:.2f} EUR"
