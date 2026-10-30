@@ -50,3 +50,7 @@ def average_price(prices):
 
 def is_empty(prices):
     return len(prices) == 0
+
+
+def cheapest(prices):
+    return min(prices) if prices else 0
