@@ -90,3 +90,7 @@ def price_range(prices):
 
 def apply_coupon(total, coupon):
     return total - coupon if coupon < total else 0
+
+
+def summary(prices):
+    return f"{count_items(prices)} articles, total {cart_total(prices)}"
