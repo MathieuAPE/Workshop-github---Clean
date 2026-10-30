@@ -1,3 +1,4 @@
+# Mini module de calcul pour une boutique en ligne
 def apply_discount(total):
     """10% de remise a partir de 100 euros."""
     if total >= 100:
