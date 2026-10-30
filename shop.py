@@ -42,3 +42,7 @@ def count_items(prices):
 
 def most_expensive(prices):
     return max(prices) if prices else 0
+
+
+def average_price(prices):
+    return sum(prices) / len(prices) if prices else 0
