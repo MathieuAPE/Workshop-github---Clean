@@ -94,3 +94,6 @@ def apply_coupon(total, coupon):
 
 def summary(prices):
     return f"{count_items(prices)} articles, total {cart_total(prices)}"
+
+
+# Exemple : apply_discount(cart_total([60, 50])) -> 99.0
