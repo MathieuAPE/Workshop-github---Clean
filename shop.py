@@ -3,3 +3,7 @@ def apply_discount(total):
     if total >= 100:
         return total * 0.9
     return total
+
+
+def add_tax(total, rate=0.2):
+    return total * (1 + rate)
