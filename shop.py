@@ -26,3 +26,7 @@ def total_with_shipping(total, weight):
 
 def is_free_shipping(total):
     return total >= 50
+
+
+def round_price(value):
+    return round(value, 2)
