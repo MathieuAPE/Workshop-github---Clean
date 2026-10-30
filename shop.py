@@ -30,3 +30,7 @@ def is_free_shipping(total):
 
 def round_price(value):
     return round(value, 2)
+
+
+def cart_total(prices):
+    return sum(prices)
