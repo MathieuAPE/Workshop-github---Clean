@@ -38,3 +38,7 @@ def cart_total(prices):
 
 def count_items(prices):
     return len(prices)
+
+
+def most_expensive(prices):
+    return max(prices) if prices else 0
