@@ -22,3 +22,7 @@ def format_price(value):
 
 def total_with_shipping(total, weight):
     return total + shipping_cost(weight)
+
+
+def is_free_shipping(total):
+    return total >= 50
