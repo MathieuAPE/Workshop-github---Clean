@@ -58,3 +58,7 @@ def cheapest(prices):
 
 def price_range(prices):
     return (min(prices), max(prices)) if prices else (0, 0)
+
+
+def apply_coupon(total, coupon):
+    return total - coupon if coupon < total else 0
