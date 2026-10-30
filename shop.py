@@ -46,3 +46,7 @@ def most_expensive(prices):
 
 def average_price(prices):
     return sum(prices) / len(prices) if prices else 0
+
+
+def is_empty(prices):
+    return len(prices) == 0
