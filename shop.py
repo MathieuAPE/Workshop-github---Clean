@@ -34,3 +34,7 @@ def round_price(value):
 
 def cart_total(prices):
     return sum(prices)
+
+
+def count_items(prices):
+    return len(prices)
