@@ -54,3 +54,7 @@ def is_empty(prices):
 
 def cheapest(prices):
     return min(prices) if prices else 0
+
+
+def price_range(prices):
+    return (min(prices), max(prices)) if prices else (0, 0)
