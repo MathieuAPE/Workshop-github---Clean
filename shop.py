@@ -18,3 +18,7 @@ def shipping_cost(weight):
 
 def format_price(value):
     return f"{value:.2f} EUR"
+
+
+def total_with_shipping(total, weight):
+    return total + shipping_cost(weight)
